@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+#      uri: http://localhost:8888
+      uri: http://47.99.138.113:8888
+      name: visits-service #需要从github上读取的资源名称，注意没有yml后缀名
+      profile: dev   #本次访问的配置项
+      label: master
